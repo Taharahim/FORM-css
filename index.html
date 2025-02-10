@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Registration Form</h1>
+        <p>Just get online registered</p>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <form>
+          <label for="fname">FIRST NAME</label>
+          <input
+            type="text"
+            size="auto"
+            maxlength="8"
+            id="fname"
+            name="firstanme"
+            required
+          />
+          <br /><br />
+          <label for="lname">LAST NAME</label>
+          <input type="text" size="auto" required maxlength="8" />
+          <br /><br />
+          <label for="email">EMAIL</label>
+          <input type="email" size="auto" id="email" name="email" required />
+          <br /><br />
+          <label for="password">PASSWORD</label>
+          <input
+            type="password"
+            size="auto"
+            required
+            maxlength="15"
+          /><br /><br />
+          <label for="GENDER">GENDER</label>
+          <select id="GENDER" name="GENDER" id="GENDER">
+            <option id="GENDER" value="GENDER"></option>
+            <option id="GENDER" value="MALE">MALE</option>
+            <option id="GENDER" value="FEMALE">FEMALE</option>
+            <option id="GENDER" value="OTHER">OTHER</option></select
+          ><br /><br />
+          <button type="submit">REGISTRATION</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
